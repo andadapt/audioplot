@@ -1,42 +1,33 @@
-## AudioPlot
-AudioPlot is a simple python script to convert any array into an audio stream.
+##AudioPlot
 
-This is especially helpful for data science and machine learning workflows. It enables a quick overview for data interpretation.
+audioPlot is a python module for converting data arrays to audio streams.
 
-This module formed a small part of my MSc in speech and text processing. Being blind I found it difficult to assess model performance quickly. This module enabled me to gain an overview of data for analysis.
+It is particularly useful for blind or visually impaired users. The audio stream enables analysis of data quickly and easily. This is particularly useful for data science and machine learning.
 
-Please note, this has only been tested on MacOS, it should work on Linux. Windows support has not been tested, audio line plotting should work, however, adding any meta information to plots will fail under windows without tinkering.
+This module formed part of my MSc Computer Science dissertation and was particularly useful for model assessment.Hopefully, others can find a use for it.
 
-## Dependencies
+The module has been fully tested underMacOS, Linux should work. However, windows compatability has not been tested.A little tinkering should be able to get it fully working.
 
-The plotting relies on a number of audio systems so the following dependencies are required:
-###portaudio
+##Dependencies
+
+A number of audio systems are required, the instructions below are for MacOS.
 
 brew install portaudio
-
-
-###pyaudio and audiolazy
-
-Through pip
-
 pip install pyaudio
-pip install audiolazy
-
-##Installation
-	
-To install ensure audioplot.py is in the directory of your python project.
-	
+pip install aaudiolazy
 
 ##Usage
-	
-The best way to get a sense of how the audioplot works is to run the test files.
-	
-git clone https://github.com/andadapt/audioplot/
+
+To use the module ensure audioplot.py is in your python project directory.
+
+To get a sense of functionality and how to use the module, i recommend you clone this repository and run any of the test_ files.
+
+git clone httpS://github.com/andadapt/audioplot/
 cd audioplot
 python3 test_line.py
-	
-##Issues
 
-Any issues please feel free to get in touch and I can assist.
+##Issues and features
+
+if you have any issues or feature requests please get in touch. Submit an issue on GitHub, email me on simon@andadapt.com or on twitter @andadapt
 
 :donut:
