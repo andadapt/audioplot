@@ -32,4 +32,4 @@ python3 test_line.py
 
 if you have any issues or feature requests please get in touch. Submit an issue on GitHub, email me on simon@andadapt.com or on twitter @andadapt
 
-:donut:
+ :donut: :see_no_evil:
