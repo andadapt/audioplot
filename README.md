@@ -12,15 +12,15 @@ Please note, this has only been tested on MacOS, it should work on Linux. Window
 The plotting relies on a number of audio systems so the following dependencies are required:
 ###portaudio
 
-    brew install portaudio
+brew install portaudio
 
 
 ###pyaudio and audiolazy
 
 Through pip
 
-    pip install pyaudio
-	
+pip install pyaudio
+pip install audiolazy
 
 ##Installation
 	
@@ -31,9 +31,9 @@ To install ensure audioplot.py is in the directory of your python project.
 	
 The best way to get a sense of how the audioplot works is to run the test files.
 	
-    git clone https://github.com/andadapt/audioplot/
-	cd audioplot
-	python3 test_line.py
+git clone https://github.com/andadapt/audioplot/
+cd audioplot
+python3 test_line.py
 	
 ##Issues
 
