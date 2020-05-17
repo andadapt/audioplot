@@ -1,5 +1,4 @@
-##AudioPlot
-
+## AudioPlot
 AudioPlot is a simple python script to convert any array into an audio stream.
 
 This is especially helpful for data science and machine learning workflows. It enables a quick overview for data interpretation.
