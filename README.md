@@ -8,15 +8,19 @@ It is particularly useful for blind or visually impaired users. The audio stream
 
 This module formed part of my MSc Computer Science dissertation and was particularly useful for model assessment.Hopefully, others can find a use for it.
 
-The module has been fully tested underMacOS, Linux should work. However, windows compatability has not been tested.A little tinkering should be able to get it fully working.
+The module has been fully tested underMacOS, Linux should work. However, windows remains untested. Line plotting may work under windows as standard but plot meta data will cause an error.
+
 
 
 ## Dependencies
 A number of audio systems are required, the instructions below are for MacOS.
 
+'''console
 brew install portaudio
 pip install pyaudio
 pip install aaudiolazy
+pip install numpy
+'''
 
 ## Usage
 
