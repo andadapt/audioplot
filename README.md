@@ -1,4 +1,4 @@
-#AudioPlot
+##AudioPlot
 
 AudioPlot is a simple python script to convert any array into an audio stream.
 
@@ -8,9 +8,9 @@ This module formed a small part of my MSc in speech and text processing. Being b
 
 Please note, this has only been tested on MacOS, it should work on Linux. Windows support has not been tested, audio line plotting should work, however, adding any meta information to plots will fail under windows without tinkering.
 
-##Dependencies
+## Dependencies
 
-The plotting relies on a number of audio system so the following dependencies are required:
+The plotting relies on a number of audio systems so the following dependencies are required:
 ###portaudio
 
     brew install portaudio
@@ -34,4 +34,3 @@ The best way to get a sense of how the audioplot works is to run the test files.
 ##Issues
 
 Any issues please feel free to get in touch and I can assist.
-    pip install audiolazy	
