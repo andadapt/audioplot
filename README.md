@@ -1,7 +1,7 @@
 
 
 
-#AudioPlot
+# AudioPlot
 audioPlot is a python module for converting data arrays to audio streams.
 
 It is particularly useful for blind or visually impaired users. The audio stream enables analysis of data quickly and easily. This is particularly useful for data science and machine learning.
@@ -11,14 +11,14 @@ This module formed part of my MSc Computer Science dissertation and was particul
 The module has been fully tested underMacOS, Linux should work. However, windows compatability has not been tested.A little tinkering should be able to get it fully working.
 
 
-##Dependencies
+## Dependencies
 A number of audio systems are required, the instructions below are for MacOS.
 
 brew install portaudio
 pip install pyaudio
 pip install aaudiolazy
 
-##Usage
+## Usage
 
 To use the module ensure audioplot.py is in your python project directory.
 
@@ -28,7 +28,7 @@ git clone httpS://github.com/andadapt/audioplot/
 cd audioplot
 python3 test_line.py
 
-##Issues and features
+## Issues and features
 
 if you have any issues or feature requests please get in touch. Submit an issue on GitHub, email me on simon@andadapt.com or on twitter @andadapt
 
