@@ -15,12 +15,12 @@ The module has been fully tested underMacOS, Linux should work. However, windows
 ## Dependencies
 A number of audio systems are required, the instructions below are for MacOS.
 
-'''console
+```console
 brew install portaudio
 pip install pyaudio
 pip install aaudiolazy
 pip install numpy
-'''
+```
 
 ## Usage
 
