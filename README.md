@@ -14,14 +14,19 @@ The plotting relies on a number of audio systems so the following dependencies a
 
     brew install portaudio
 
+
 ###pyaudio and audiolazy
+
 Through pip
+
     pip install pyaudio
 	
+
 ##Installation
 	
 To install ensure audioplot.py is in the directory of your python project.
 	
+
 ##Usage
 	
 The best way to get a sense of how the audioplot works is to run the test files.
@@ -33,3 +38,5 @@ The best way to get a sense of how the audioplot works is to run the test files.
 ##Issues
 
 Any issues please feel free to get in touch and I can assist.
+
+:donut:
