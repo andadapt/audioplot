@@ -18,7 +18,7 @@ A number of audio systems are required, the instructions below are for MacOS.
 ```console
 brew install portaudio
 pip install pyaudio
-pip install aaudiolazy
+pip install audiolazy
 pip install numpy
 ```
 
@@ -28,10 +28,11 @@ To use the module ensure audioplot.py is in your python project directory.
 
 To get a sense of functionality and how to use the module, i recommend you clone this repository and run any of the test_ files.
 
+```console
 git clone httpS://github.com/andadapt/audioplot/
 cd audioplot
 python3 test_line.py
-
+```
 ## Issues and features
 
 if you have any issues or feature requests please get in touch. Submit an issue on GitHub, email me on simon@andadapt.com or on twitter @andadapt
